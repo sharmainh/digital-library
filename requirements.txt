@@ -3,7 +3,7 @@ blinker==1.6.2
 click==8.1.7
 dnspython==2.4.2
 email-validator==2.0.0.post2
-Flask==2.2.3
+Flask==2.2.5
 Flask-Cors==4.0.0
 Flask-Login==0.6.2
 flask-marshmallow==0.15.0
@@ -26,6 +26,6 @@ python-dotenv
 six==1.16.0
 SQLAlchemy==2.0.20
 typing_extensions==4.7.1
-Werkzeug
+Werkzeug==2.3.7
 WTForms==3.0.1
 zipp==3.16.2
