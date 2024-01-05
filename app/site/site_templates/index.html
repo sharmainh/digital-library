@@ -1,0 +1,270 @@
+{% extends 'base.html' %}
+
+{% block content %} 
+<!-- section 1 start -->
+
+<div class="container">
+    <div class="d-flex flex-row section1 px-5 text-light pt-5 pb-3">
+        <div class="p-2 d-flex col-3 pt-5" style="margin-right: 200px;">
+            <span>
+                <h2 style="font-weight: 900; padding-right: 10px; padding-top: 20px;">
+                    Empowering <br>Minds With Digital Resources 
+                </h2>
+                <p class="col-12" style=" font-weight: 200">As you read a book word by word, page by 
+                page, you participate in its creation.
+                </p>
+                <a href="{{ url_for('site.ebooks') }}" target="_blank"><button class="btn btn-outline-light" 
+                    type="button" 
+                    style="width: 8em; 
+                    background-color: white; 
+                    color: rgb(15, 47, 15);"
+                    >
+                    View Library
+                    </button></a> 
+            </span>
+        </div>
+        <div>
+            <span><img class="col-12 d-flex justify-content-end pt-3 px-1" 
+            src="../../static/images/books/Psychology of Money copy.png" 
+            alt="A book cover with a human brain" 
+            style="width: 125px; height: 100px;"
+            >
+            <br>
+            <img class="col-12 d-flex justify-content-end px-1" 
+                    src="../../static/images/books/The Outsider.png" 
+                    alt="A book cover with a human brain" 
+                    style="width: 125px; height: 175px;"
+                    >
+
+            </span>
+        </div>
+        <div class="p-2">
+            <img class="col-12 d-flex justify-content-end px-3 pt-2" 
+                    src="../../static/images/books/Ottoman.png" 
+                    alt="A book cover with a human brain" 
+                    style="width: 125px; height: 175px;"
+            >  
+                    <br>
+            <img class="col-12 d-flex justify-content-end px-3" 
+                    src="../../static/images/books/Shadow in the Forest.png" 
+                    alt="A book cover with a human brain" 
+                    style="width: 125px; height: 100px;"
+            > 
+
+        </div>
+        <div class="p-2">
+            <img class="col-12 d-flex justify-content-start pt-2" 
+                    src="../../static/images/books/The Forest Hunter.png" 
+                    alt="A book cover with a human brain" 
+                    style="width: 125px; height: 100px; 
+                    padding-right: 20em; padding-top: 0.5em;"
+            >
+            <br>
+            <img class="col-12 d-flex justify-content-start" 
+                    src="../../static/images/books/Killer Instinct.png" 
+                    alt="" 
+                    style="width: 125px; height: 175px; padding-right: 20em;"
+            >
+        </div>
+      </div>
+<!-- first row -->
+    <div class="row py-3">
+        <div class="col d-flex justify-content-center pt-5">
+            <h3 style="font-weight: 900;">
+                We Offer Unique Features
+            </h3>
+        </div>    
+<!-- second row -->
+        <div class="row d-flex justify-content-center gx-5">
+            <div class="col-7 d-flex justify-content-center ">
+                <p style="font-weight: 100";>Readerly is your digital library--
+                    a place that makes it easy to access books, documents, 
+                    audio-visual 
+                    <br> 
+                    <span style="padding-left: 3em;">materials and resources for 
+                        students, researchers, and members of the wider public.
+                    </span>
+                </p>
+            </div>
+        </div>
+       
+    <div class="container pb-5 pt-2 ">
+        <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3 justify-content-md-center">
+            <div class="col">
+                <div class="px-3 pt-3 border rounded bg-light shadow">
+                    <img src="../../static/images/icons/join.png" alt="" class="w-25" style="margin-left: 5em">
+                    <p class="pt-3" style="margin-left: 2em; font-size: 20px">
+                        Join a Community
+                    </p>
+                    <p class="col-12 features">Join a community that aligns with your interests, to maximize the benefits you gain from being a part of the Readerly community.</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="px-3 pt-3 border rounded bg-light shadow">
+                    <img src="../../static/images/icons/support.png" alt="" style="margin-left: 5em;" class="w-25">
+                    <p class="pt-3" style="margin-left: 2em; font-size: 19px">
+                    Access <span style="font-weight: bold;">24</span>/Hr Support
+                    </p>
+                    <p class="col-12 features">Support staff is available to answer questions, provide information, and offer guidance on various matters.</p> 
+                </div>
+            </div>
+            <div class="col">
+                <div class="px-3 pt-3 border rounded bg-light shadow">
+                    <img src="../../static/images/icons/library.png" alt="" style="margin-left: 5em;" class="w-25">
+                    <p class="pt-3" style="margin-left: 2em; font-size: 20px;">
+                    Enjoy our Library
+                    </p>
+                    <p class="col-12 features">Access a wide range of information sources, a vast collection of books, documents, and audio-visual materials.</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="px-3 pt-3 border rounded bg-light shadow">
+                    <img src="../../static/images/icons/podcast-1.png" alt="" style="margin-left: 5em" class="w-25">
+                    <p class="pt-3" style="font-size: 20px; margin-left: 2em; ">
+                        Listen to Podcasts
+                    </p>
+                    <p class="col-12 features">If you're interested in exploring podcasts listen to our audio content on-demand, whenever and wherever you want. </p>
+                </div>
+            </div>
+    </div>
+<!-- third row -->      
+</div>
+<div class="container-fluid d-flex justify-content-center pt-3">
+    <div class="row">
+        <div class="col d-flex justify-content-center pt-5 pb-4">
+            <h3 style="font-weight: 900;">Blog Posts</h3>                   
+        </div>
+        <div class="row flex-row justify-content-center ">
+            <div class="col-3">
+                <img src="../../static/images/books/Psychology of Money.png" alt=""
+                class="rounded-top" style="width: 300px; height: 200px";>
+                <div class="d-flex flex-row bd-highlight col-10 p-2 ">
+                    <div class="w-100 bd-highlight pt-2">
+                        <img  src="../../static/images/logo/logo.png" alt="" style="width: 25px; height: 20px";> 800 Reads 
+                    </div>
+                    <div class=" bd-highlight d-flex flex-shrink-1 justify-content-end">
+                        <img  src="../../static/images/blog/5 star.png" alt="" class="col-6">
+                    </div>
+                </div>
+                <div class="p-2 bd-highlight d-flex col-10 " style="font-size: small;">
+                    An essential read for individuals of all interests, not just
+                    those keen on investments! The book delves into the 
+                    intricacies of the Psychology of Money, shedding light on 
+                    the profound impact it has on Personal Finance.
+                </div>
+                <div class="p-2 bd-highlight d-flex col-10 border-bottom rounded-bottom shadow-sm" style="">
+                    <img src="../../static/images/blog/profilephoto.png" alt="" style="width: 40px; height: 40px"; class="rounded-circle">
+                    <div class=" bd-highlight justify-content-start pt-2 px-2 " style="font-size: small;">
+                        Blog Posted By:Sharmain <p style="font-size: xx-small;" class="">5-22-2023</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-3">
+                <img src="../../static/images/books/The Pain Habit.png" alt=""
+                class="rounded-top" style="width: 300px; height: 200px";>
+                <div class="d-flex flex-row bd-highlight col-10 p-2 ">
+                    <div class="w-100 bd-highlight pt-2">
+                        <img  src="../../static/images/logo/logo.png" alt="" style="width: 25px; height: 20px";> 800 Reads 
+                    </div>
+                    <div class=" bd-highlight d-flex flex-shrink-1 justify-content-end">
+                        <img  src="../../static/images/blog/5 star.png" alt="" class="col-6">
+                    </div>
+                </div>
+                <div class="p-2 bd-highlight d-flex col-10" style="font-size: small;">
+                    A MUST READ for all, even those not inclined towards 
+                    self-help literature! The author delves into the psychological
+                     dimensions of coping with pain, emphasizing habits and their 
+                     profound influence on our well-being 
+                </div>
+                <div class="p-2 bd-highlight d-flex col-10 border-bottom rounded-bottom shadow-sm" style="">
+                    <img src="../../static/images/blog/profilephoto.png" alt="" style="width: 40px; height: 40px"; class="rounded-circle">
+                    <div class=" bd-highlight justify-content-start pt-2 px-2" style="font-size: small;">
+                        Blog Posted By:Sharmain <p style="font-size: xx-small;">5-22-2023</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3  ">
+                <img src="../../static/images/books/Illusion of choice.png" alt=""
+                class="rounded-top" style="width: 300px; height: 200px";>
+                <div class="d-flex flex-row bd-highlight col-10 p-2">
+                    <div class="w-100 bd-highlight pt-2">
+                        <img  src="../../static/images/logo/logo.png" alt="" style="width: 25px; height: 20px";> 800 Reads 
+                    </div>
+                    <div class=" bd-highlight d-flex flex-shrink-1 justify-content-end">
+                        <img  src="../../static/images/blog/5 star.png" alt="" class="col-6">
+                    </div>
+                </div>
+                <div class="p-2 bd-highlight d-flex col-10" style="font-size: small;">
+                    A highly recommended read for a broad audience, "The 
+                    Illusion of Choice" delves into the intricacies of personal 
+                    decision-making, money management, and their profound 
+                    psychological implications. 
+                    
+                </div>
+                <div class="p-2 bd-highlight d-flex col-10 border-bottom rounded-bottom shadow-sm" style="">
+                    <img src="../../static/images/blog/profilephoto.png" alt="" class="rounded-circle"; style="width: 40px; height: 40px";>
+                    <div class=" bd-highlight justify-content-start pt-2 px-2" style="font-size: small;">
+                        Blog Posted By:Sharmain <p style="font-size: xx-small;">5-22-2023</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end third row -->
+
+<!-- users subscribee below -->
+<div class="d-flex flex-row border rounded shadow col-8" style="margin-top: 100px; margin-left: 200px;">
+    <div class="bd-highlight col-5">
+        <img src="../../static/images/blog/blog_envelope.png" alt="" style="width: 350px; height: 300px";>
+    </div>
+    <div class="bd-highlight col-6 justify-content-end">
+        <div class="row mt-5 h3">
+            Subscribe To Our Blog For The Latest Information
+        </div>
+        <div class="row mt-2 col-11">
+            Explore literary wonders and insights on our captivating library blog.
+        </div>
+        <div class="row">
+            <input class="form-control" type="email" placeholder="Enter Your Email" aria-label="Enter Your Email" style="width: 300px; height:23px; margin-top: 9px;" >
+            <button class="btn btn-outline-light my-2 col-2" type="submit" style="background-color:rgb(29, 57, 29); color: white;">Subscribe</button>
+        </div>
+
+    </div>
+</div>
+
+<!-- footer start -->
+
+    <div class="d-flex text-light pt-5 pb-5 justify-content-around flex-row section1" style="margin-top: 125px;">
+        <div class="p-2 col-3 mx-5">
+           <h3>Readerly
+            <img src="../static/images/logo/book icon.png" alt="" style="width: 30px; height: auto;"></h3>
+            
+                <p class="col-10">Innovative digital library company: Access diverse content online; empower learning, research, and exploration seamlessly for users worldwide.</p>
+            
+        </div>
+        <div class="p-2 mt-2 ">
+            <h5 class="pb-2">Support</h5>
+            <p>Feature Requests</p>
+            <p>Contact Support</p>
+            <p>Account Recovery</p>
+        </div>
+        <div class="p-2 mt-2">
+            <h5 class="pb-2">Books</h5>
+            <p>All-Time Best Sellers</p>
+            <p>Book Club Selections</p>
+            <p>Recommended Reads</p>
+        </div>
+        <div class="p-2 mt-2">
+            <h5 class="pb-2">Authors</h5>
+            <p>Personal Blogs</p>
+            <p>Published Authors</p>
+            <p>Influencers</p>
+        </div>  
+      </div>
+<!-- Footer End -->
+     
+     
+
+{% endblock %}
