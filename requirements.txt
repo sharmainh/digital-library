@@ -9,7 +9,7 @@ flask-marshmallow==0.14.0
 Flask-Migrate==3.1.0
 Flask-SQLAlchemy
 Flask-WTF==1.0.1
-greenlet==1.1.2
+greenlet==2.0.2
 gunicorn==21.2.0
 idna==3.3
 importlib-metadata==4.11.4
